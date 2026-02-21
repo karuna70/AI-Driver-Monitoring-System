@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #00ffcc;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+img {
+    margin-top: 20px;
+    width: 80%;
+    border-radius: 10px;
+}

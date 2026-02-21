@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Driver Monitoring System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚗 AI Driver Monitoring System</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if image %}
+        <div class="result">
+            <h2>Detection Result</h2>
+            <img src="{{ image }}">
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
